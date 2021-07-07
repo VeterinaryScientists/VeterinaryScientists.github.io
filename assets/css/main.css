@@ -48,10 +48,31 @@ blockquote, q {
 
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing: 5px;}
+th, td {
+  padding: 15px;
+}
+#fellowships {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-body {
+#fellowships td, #fellowships th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#fellowships tr:nth-child(even){background-color: #f2f2f2;}
+
+#fellowships tr:hover {background-color: #ddd;}
+
+#fellowships th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #929FB7;
+  color: white;
+}body {
 	-webkit-text-size-adjust: none;
 }
 
@@ -2176,7 +2197,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/pic01.jpg");
+		background-image: url("../../images/background.png");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -3136,3 +3157,7 @@ input, select, textarea {
 					}
 
 	}
+
+
+
+
